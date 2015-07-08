@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title></title>
     <script src="react.js"></script>
+    <script src="JSXTransformer.js"></script>
 </head>
 <body>
     <div id="example"></div>
-    <script type="text/javascript">
+    <script type="text/jsx">
         // React code
         React.render(
-                React.createElement('h1', null, 'Hello world!'),
+                <h1>Hello World!</h1>,
                 document.getElementById('example')
         );
     </script>
